@@ -2,7 +2,7 @@
 A project in C++ that intends to adapt the idea of verifying data integrity using DPDP in the scenario of a RAID system
 
 
-##Preliminaries :-
+## Preliminaries :-
 
 Raid array should be created using mdadm before using this application.
 The Raid array should be mounted after creation.
@@ -11,7 +11,7 @@ Before adding any file/folder to the raid, this application needs to be run once
 For C++ boost library compatibility, it is required to use this application in Linux Ubuntu 12.04.
 
 
-##Dependencies :-
+## Dependencies :-
 
 Install the following packages using terminal with any extra dependencies accepted 
 during installation.
@@ -40,7 +40,7 @@ Check the libc6 version on your system and upgrade it if required.
 > sudo dpkg -l libc6
 
 
-##Usage :-
+## Usage :-
 
 Go inside main directory of project.
 
@@ -51,7 +51,7 @@ Go inside main directory of project.
 > sudo ./project <raid-name>
 
 
-##Files in the project :-
+## Files in the project :-
 
 1. main.cpp
 Main driver program file
