@@ -88,5 +88,5 @@ create_daemon() :- This creates daemon if check_daemon_existence() returns false
 Currently, those events are logged in “syslog file” (/var/log/syslog in ubuntu 12.04) and can be seen by “tail -n 10 /var/log/syslog”.  In this function, there code for FlexList updation on appropriate event (insertion/deletion/modification in list).
 
 
-All other files in the project are either part of Cashlib Cryptographic library or part of FlexDPDP library.
+All other files in the project are either part of Cashlib Cryptographic library or FlexDPDP library.
 

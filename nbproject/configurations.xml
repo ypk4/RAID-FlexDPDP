@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>AuthenticatedNode.h</itemPath>
+      <itemPath>AuthenticatedSkipList.h</itemPath>
+      <itemPath>CashException.h</itemPath>
+      <itemPath>Ciphertext.h</itemPath>
+      <itemPath>CommonFunctions.h</itemPath>
+      <itemPath>DPDPCONST.h</itemPath>
+      <itemPath>DPDPFlexProver.h</itemPath>
+      <itemPath>DPDPFlexVerifier.h</itemPath>
+      <itemPath>Data.h</itemPath>
+      <itemPath>Debug.h</itemPath>
+      <itemPath>DiffSkipListSImple.h</itemPath>
+      <itemPath>DummyRankBasedNode.h</itemPath>
+      <itemPath>FourSquares.h</itemPath>
+      <itemPath>Group.h</itemPath>
+      <itemPath>GroupRSA.h</itemPath>
+      <itemPath>Hash.h</itemPath>
+      <itemPath>Key.h</itemPath>
+      <itemPath>Merkle.h</itemPath>
+      <itemPath>MerkleContract.h</itemPath>
+      <itemPath>MultiExp.h</itemPath>
+      <itemPath>Node.h</itemPath>
+      <itemPath>ProofNode.h</itemPath>
+      <itemPath>RankBasedNode.h</itemPath>
+      <itemPath>RankBasedSkipList.h</itemPath>
+      <itemPath>Serialize.h</itemPath>
+      <itemPath>Serialize_map.h</itemPath>
+      <itemPath>SkipList.h</itemPath>
+      <itemPath>State.h</itemPath>
+      <itemPath>Timer.h</itemPath>
+      <itemPath>NTL/ZZ.h</itemPath>
+      <itemPath>base64.h</itemPath>
+      <itemPath>build_challenge_prove_verify.h</itemPath>
+      <itemPath>build_flexlist.h</itemPath>
+      <itemPath>connection.hpp</itemPath>
+      <itemPath>create_daemon.h</itemPath>
+      <itemPath>logger.h</itemPath>
+      <itemPath>mdstat_entry.h</itemPath>
+      <itemPath>NTL/tools.h</itemPath>
+      <itemPath>NTL/vec_ZZ.h</itemPath>
+      <itemPath>watch.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>AuthenticatedNode.cpp</itemPath>
+      <itemPath>AuthenticatedSkipList.cpp</itemPath>
+      <itemPath>CashException.cpp</itemPath>
+      <itemPath>Ciphertext.cpp</itemPath>
+      <itemPath>CommonFunctions.cpp</itemPath>
+      <itemPath>DPDPFlexProver.cpp</itemPath>
+      <itemPath>DPDPFlexVerifier.cpp</itemPath>
+      <itemPath>Data.cpp</itemPath>
+      <itemPath>FourSquares.cpp</itemPath>
+      <itemPath>Group.cpp</itemPath>
+      <itemPath>GroupRSA.cpp</itemPath>
+      <itemPath>Hash.cpp</itemPath>
+      <itemPath>Key.cpp</itemPath>
+      <itemPath>Merkle.cpp</itemPath>
+      <itemPath>MultiExp.cpp</itemPath>
+      <itemPath>Node.cpp</itemPath>
+      <itemPath>ProofNode.cpp</itemPath>
+      <itemPath>RankBasedNode.cpp</itemPath>
+      <itemPath>RankBasedSkipList.cpp</itemPath>
+      <itemPath>Serialize.cpp</itemPath>
+      <itemPath>SkipList.cpp</itemPath>
+      <itemPath>Timer.cpp</itemPath>
+      <itemPath>NTL/ZZ.cpp</itemPath>
+      <itemPath>base64.cpp</itemPath>
+      <itemPath>build_challenge_prove_verify.cpp</itemPath>
+      <itemPath>build_flexlist.cpp</itemPath>
+      <itemPath>check_daemon_existence.cpp</itemPath>
+      <itemPath>create_daemon.cpp</itemPath>
+      <itemPath>get_mount_location.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>mdstat_entry.cpp</itemPath>
+      <itemPath>read_mdstat.cpp</itemPath>
+      <itemPath>watch.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>boost_serialization</linkerLibLibItem>
+            <linkerLibLibItem>boost_thread</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-lboost_serialization -lboost_thread -lboost_thread-mt -lboost_serialization-mt -lboost_iostreams-mt -lboost_system -lantlr -lgmpxx -lgmp -lm -lssl -lcrypto -ldl</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="AuthenticatedNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AuthenticatedNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AuthenticatedSkipList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AuthenticatedSkipList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CashException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CashException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ciphertext.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ciphertext.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CommonFunctions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CommonFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DPDPCONST.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DPDPFlexProver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DPDPFlexProver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DPDPFlexVerifier.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DPDPFlexVerifier.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Debug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DiffSkipListSImple.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DummyRankBasedNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FourSquares.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FourSquares.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Group.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Group.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GroupRSA.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GroupRSA.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Key.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Key.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Merkle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Merkle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MerkleContract.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MultiExp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MultiExp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NTL/ZZ.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NTL/ZZ.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NTL/tools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NTL/vec_ZZ.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Node.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ProofNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ProofNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RankBasedNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RankBasedNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RankBasedSkipList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RankBasedSkipList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serialize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Serialize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serialize_map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SkipList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SkipList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="State.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Timer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base64.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="base64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build_challenge_prove_verify.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="build_challenge_prove_verify.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build_flexlist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="build_flexlist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="check_daemon_existence.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="connection.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="create_daemon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="create_daemon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="get_mount_location.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mdstat_entry.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mdstat_entry.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="read_mdstat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="watch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="watch.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="AuthenticatedNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AuthenticatedNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AuthenticatedSkipList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AuthenticatedSkipList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CashException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CashException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ciphertext.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ciphertext.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CommonFunctions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CommonFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DPDPCONST.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DPDPFlexProver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DPDPFlexProver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DPDPFlexVerifier.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DPDPFlexVerifier.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Debug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DiffSkipListSImple.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DummyRankBasedNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FourSquares.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FourSquares.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Group.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Group.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GroupRSA.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GroupRSA.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Key.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Key.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Merkle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Merkle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MerkleContract.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MultiExp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MultiExp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NTL/ZZ.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NTL/ZZ.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NTL/tools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NTL/vec_ZZ.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Node.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ProofNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ProofNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RankBasedNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RankBasedNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RankBasedSkipList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RankBasedSkipList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serialize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Serialize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serialize_map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SkipList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SkipList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="State.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Timer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base64.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="base64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build_challenge_prove_verify.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="build_challenge_prove_verify.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build_flexlist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="build_flexlist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="check_daemon_existence.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="connection.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="create_daemon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="create_daemon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="get_mount_location.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mdstat_entry.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mdstat_entry.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="read_mdstat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="watch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="watch.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
